@@ -20,7 +20,7 @@ stages:
     commands:
     - lpkg --unlock
     - apt-get update
-    - apt-get upgrade
+    - apt-get upgrade -y -t sid
 
   # Put your custom actions behind this comment
 
