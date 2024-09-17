@@ -20,7 +20,7 @@ stages:
     commands:
     - lpkg --unlock
     - apt-get update
-    - apt-get upgrade -y -t unstable
+    - apt-get upgrade -y 
 
   # Put your custom actions behind this comment
 
